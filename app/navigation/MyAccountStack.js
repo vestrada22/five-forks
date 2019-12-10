@@ -1,6 +1,6 @@
 import { createStackNavigator } from "react-navigation-stack";
-
 import MyAccountScreen from "../screens/Account/MyAccount";
+import LoginScreen from '../screens/Account/Login'
 
 const MyAccountScreenStack = createStackNavigator({
   Account: {
@@ -8,6 +8,12 @@ const MyAccountScreenStack = createStackNavigator({
     navigationOptions: () => {
       title: "My Account";
     }
+  },
+  Login: {
+    screen: LoginScreen,
+    navigationOptions: () => ({
+      title: "Login"
+    })
   }
 });
 

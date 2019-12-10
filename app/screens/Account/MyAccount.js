@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../../components/Loading";
 import * as firebase from "firebase";
-import USerLogged from "./USerLogged";
+import USerLogged from "./UserLogged";
 import UserGuest from "./UserGuest";
 
 const MyAccount = () => {
